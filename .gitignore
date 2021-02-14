@@ -1,0 +1,8 @@
+.eclipse
+*.bin
+*.log
+*.javac
+.settings
+.classpath
+.project
+/bin/

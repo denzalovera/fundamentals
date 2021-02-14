@@ -1,0 +1,152 @@
+Concepts:
+    Abstraction
+    Encapsulation
+    Inheritance
+    Polymorphism
+
+
+    OOP
+    A - abstraction
+    P - polymorphism
+    I - inheritance
+    E - encapsulation
+
+Object Oriented Analysis
+        1. Gather Requirements
+        2. Describe the application
+    Design
+        3. Identify the main objects
+        4. Describe the interactions
+        5. Create a class diagram
+    Programming
+
+Software development processes include:
+    - Requirements Gathering
+    - Requirements Analysis
+    - Design
+
+System Implementation
+UML - Unified Modeling Language
+    - class diagram
+    - case diagram
+
+    Gathering Requirements
+        Functional Requirements:
+            - The system must...
+        Non-Functional Requirements:
+            - the system should be...
+        FURPS+ Requirements:
+            - Functionality - capability, reusability, security
+            - Usability - human factors, aesthetics, consistency, documentation
+            - Reliablity - availablity, failure rate and duration, predictablity
+            - Performance - speed efficiency, resource consumption, scalability
+            - Supportability - testability, extensability, service, configurability
+            +PLUS
+                - Design - software design, architecture
+                - Implementation - language etc.
+                - Interface - APIs etc.
+                - Physical - hardware
+
+Software Development Process:
+    - define requirements
+    - define use case & user stories
+    - design
+
+Use Case:
+    Title: What is the goal?
+        should be short and simple
+    Primary Actor: Who desires it?
+        uses the system actor can be person or another system
+    Success Scenario: How is it accomplished?
+        Steps taken to achieve a goal. essay format or in bullet points. (non formal)
+    Extensions: steps to do if some things go wrong.
+    Precondition: preq. for the goal to be successful
+
+    use case diagram:
+        - actors represented by stick figures
+        - processess are placed inside a box (limitations) and encircled
+        - external actors are as follows: <<actor, interface>> placed inside a box.
+
+    User Stories:
+        - as a (type of user)
+        - i want (goal)
+        - so that (reason)
+
+Conceptual Model:
+    - represents important objects and the relationships between them.
+
+
+Design:
+    - conceptual design:
+        - Identifying the objects, based on use cases and user stories
+        - Identify the relationship of each objects based on uml notations
+        - identify the responsibilities of the objects
+    - CRC
+        - class, responsibility and collaboration in (paper format)
+
+UML Class Diagram:
+
+
+
+Further Readings:
+TODO:
+    https://dev.to/miniscruff/agile-revisited-priority-requirements-and-delivery-ol4
+
+
+
+----
+
+    Moon Shuttle Jukebox
+        - the jukebox must be able to select a music from an available album
+        - the jukebox must be able to prioritize music selected by least to many
+
+        functional requirements:
+            - maintain a library of albums/songs
+            - allow users to browse albums/songs
+            - allow users to select individual songs
+            - prevent users from selecting entire albums
+            - maintain a queue of songs to play
+            - play music
+            - allow users to sort by artists
+            - identify individual users
+            - track number of plays per user
+
+        non-functional requirements:
+            - intuitive to use in space
+            - available 24/7
+            - low power
+            - updatable
+
+        Use case:
+            Title: Play a song
+            Primary Actor: User
+            Success scenario: System identifies user. User browses library of available albums. User
+            selects an album and browses list of songs on the selected album. User Selects a song. System
+            plays the selected song.
+
+            Title: Select multiple songs
+            Primary Actor: User
+
+             Scenario:
+                1. System identifies user.
+                2. User browses available albums and songs.
+                3. User selects song
+                4. System begins playing selected song
+                5. User Continues browsing and selects a second song.
+                6. Systems adds second song to play queue.
+                7. System plays second song after first song is over.
+
+        User Stories:
+            As a user, I want my song to be added to the front of a long play queue, so that I don't have
+            to wait hours to hear it.
+
+            Usability point of view:
+                as a user, i want to be identified without touching anything. so that my hands are free to
+                do other things.
+
+Well Designed Apps:
+what does a great software means to me?
+    Great software is something that the user expects, is easy for another programmer to continue, modular
+    and uses best practice techniques.
+
+Software
