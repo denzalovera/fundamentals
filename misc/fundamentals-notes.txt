@@ -21,3 +21,29 @@ public class MyFirstJavaProgram {
       System.out.println("Hello World"); // prints Hello World
    }
 }
+
+Data Types:
+	byte
+	short
+	int
+	long
+	float
+	double
+	boolean
+	char
+
+Reference Datatypes:
+	String
+	array/list/arraylist
+	
+Modifiers Access (scope):
+	private - visible only in class
+	public - public (all)
+	protected - package and subclasses
+	
+Modifiers Non-Access:
+	static - modifier for creating class methods and variables
+	final - can't be updated
+	abstract - create abstract method and classes
+	synchronized and volatile - used for threads
+	

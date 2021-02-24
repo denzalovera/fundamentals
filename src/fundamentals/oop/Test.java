@@ -1,16 +1,20 @@
 package fundamentals.oop;
 
 public class Test {
+	
+	final int value = 10;
+	
+	// the following are examples of declaring constants:
+	public static final int BOXWIDTH = 6;
+	static final String TITLE = "Manager";
+	
+	public void changeValue() {
+		//value = 12; //error
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String myString = "Hello World!";
-		// this is an unnecessary use of loops.
-		char[] myChar = myString.toCharArray();
-		for (char i : myChar) {
-			System.out.print(i);
-		}
 	}
 
 }
